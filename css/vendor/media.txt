@@ -1,0 +1,45 @@
+@media (min-width: 500px) {
+    main{
+   		grid-template-areas: 
+    	"header paginas paginas"
+    	"header casette casette"
+    	"header about about"
+    	"header skills skills"
+    	"header charges charges"
+    	"header contact contact"
+    	"header info info"
+    	"header posts posts"
+    	"foot foot foot" ;
+   }
+ }  
+    header {
+	grid-area: header;
+   }
+	section.casette {
+	grid-area: casette;
+   }
+   div.paginas {
+	grid-area: paginas;
+   }
+   section.about {
+	grid-area: about;
+   }
+   section.skills {
+	grid-area: skills;
+   }
+   section.charges {
+	grid-area: charges;
+   }
+   section.contact {
+	grid-area: contact;
+   }
+   section.info {
+	grid-area: info;
+   }
+   section.posts {
+	grid-area: posts;
+   }
+   footer.foot {
+	grid-area: foot;
+   }
+}
