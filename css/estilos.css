@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 main {
 	display: grid;
     font-family:sans-serif;
@@ -18,7 +21,7 @@ main {
     	[rowc-end rowd-start] 0.10743801652%	/*650px*/
     	[rowd-end rowe-start] 0.09090909090%	/*550px*/
     	[rowe-end rowf-start] 0.16925619834%	/*1750px*/
-    	[rowf-end rowg-start] 450px	/*450px*/
+    	[rowf-end rowg-start] 450px	            /*450px*/
     	[rowg-end rowh-start] 0.04958677685%	/*300px*/
     	[rowh-end rowi-start] 0.08760330578%	/*530px*/
     	[rowi-end rowj-start] 0.00661157024%	/*40px*/
@@ -133,8 +136,10 @@ footer.foot {
 img.casette-imgc {
 	display: block;
 	margin: 2em auto;
-	max-width: 250px;
-	max-height: 250px;
+	/*max-width: 250px;
+	max-height: 250px;*/
+	max-width: 15em;
+	max-height: 15em;
 }
 
 /* paginas */
@@ -262,7 +267,7 @@ img.casette-imgc {
 /* contact */
 
 .contact {
-	
+	background-color: #7D7D7D;
 }
 
 .contact-title {
@@ -325,4 +330,14 @@ img.casette-imgc {
 .all-titles {
 	font-size: 2em;
 	margin: 2em auto;
+}
+
+/* efectos hover */
+
+.hover {
+	opacity: 0.8;
+}
+
+.hover:hover {
+	opacity: 1;
 }
