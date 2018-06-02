@@ -35,6 +35,88 @@ section, div, footer {
 }
 
 
+/**************************
+ ESTABLECIENDO MEDIA QUERIES 
+ ****************************/  
+
+@media (min-width: 500px) {
+    main {
+   		grid-template-columns: 
+    	[col-s1-start] 1fr
+    	[col-s1-end col-s2-start]1fr
+    	[col-s2-end col-s3-start]1fr
+    	[col-s3-end col-s4-start]1fr
+    	[col-s4-end]
+       ;
+    	grid-template-rows:  
+    	[row1-start] 0.2809917355%			
+		[row1-end row2-start] 0.00661157024%		
+    	[row2-end row3-start] 0.10743801652%	
+    	[row3-end row4-start] 0.09090909090%	
+    	[row4-end row5-start] 0.16925619834%	
+    	[row5-end row6-start] 450px	
+    	[row6-end row7-start] 0.04958677685%	            
+    	[row7-end row8-start] 0.00661157024%	
+    	[row8-end]	
+       ;
+    } 
+ 
+    header {
+	grid-row: row1-start / row7-end;
+	grid-column: col-s1-start / col-s1-end;
+	background-color: #6E4E4F;
+    }
+
+    section.casette {
+    grid-row: row1-start / row1-end;
+	grid-column: col-s2-start / col-s4-end;
+    }
+
+    div.paginas {
+    grid-row: row2-start / row2-end;
+	grid-column: col-s2-start / col-s4-end;
+    }
+
+    section.about {
+	grid-row: row3-start / row3-end;
+	grid-column: col-s2-start / col-s4-end;
+    }
+
+    section.skills {
+	grid-row: row4-start / row4-end;
+	grid-column: col-s2-start / col-s4-end;
+ 	}
+
+	section.charges {
+	grid-row: row5-start / row5-end;
+	grid-column: col-s2-start / col-s4-end;
+ 	}
+
+	section.contact {
+	grid-row: row6-start / row6-end;
+	grid-column: col-s2-start / col-s4-end;
+ 	}
+
+	section.info {
+	grid-row: row7-start / row7-end;
+	grid-column: col-s2-start / col-s2-end;
+ 	}
+
+	section.posts {
+	grid-row: row7-start / row7-end;
+	grid-column: col-s3-start / col-s4-end;
+ 	}
+
+	footer.foot {
+	grid-row: row8-start / row8-end;
+	grid-column: col-s1-start / col-s4-end;
+ 	}
+}
+
+
+
+
+
 /***********************
  ESTABLECIENDO POSICIONES 
  *************************/  
