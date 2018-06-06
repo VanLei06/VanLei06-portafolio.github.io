@@ -75,7 +75,7 @@ section, div, footer {
 
 header {
 	grid-row: rowa-start / rowa-end;
-	background-color: #6E4E4F;
+	background-color: #221F1F;
 	font-size: 0.5em;
 	display: block;
 }
@@ -83,29 +83,31 @@ header {
 section.casette {
 	grid-row: rowb-start / rowb-end;
 	padding: 0;
+	background-color: #281b1b;
 }
 
 div.paginas {
 	grid-row: rowc-start / rowc-end;
 	padding: 0;
+	background-color: #2b1717;
 }
 
 section.about {
 	grid-row: rowd-start / rowd-end;
-	background-color: #574E4F;
+	background-color: #321111;
+	opacity: 0.9;
 	padding: 0;
 }
 
 section.skills {
 	grid-row: rowe-start / rowe-end;
-	background-color: #665C5D;
+	background-color: #350d0d;
 	padding: 0;
 }
 
 section.charges {
 	grid-row: rowf-start / rowf-end;
-	/*background-color: #6FA19C;*/
-	background: linear-gradient(to bottom, #e32934 0%, #004883 100%);
+	background-color: #370c0c;
 	padding: 0;
 
 }
@@ -143,7 +145,7 @@ footer.foot {
 	display: block;
 	float: left;
 	margin-left: 1em;
-	color: #0E194F;
+	color: #F5F5F1;
 }
 
 .header-box {
@@ -179,10 +181,9 @@ footer.foot {
     }
 
     .header-title {
-    	font-size: 5em;
+    	font-size: 450%;
     	text-align: center;
     	margin-left: 0.2em;
-		color: lightblue;
     }
 
     .links-grap {
@@ -190,7 +191,7 @@ footer.foot {
     	clear: left;
     	text-align: center;
     	margin-top: 6.5em;
-    	font-size: 4.5em;
+    	font-size: 300%;
     }
 
     .header-links {
@@ -200,9 +201,21 @@ footer.foot {
     .header-link-title {
     	margin: 0.5em 0;
     	padding: 0.5em 0;
+    	color: #420000;
     } .header-link-title:hover
     {background-color: #825C5D;}
 }    
+
+@media (min-width: 1000px) {
+	.links-grap {
+		margin-top: 4.5em;
+		font-size: 6em;
+	}
+
+	.header-title {
+		margin-left: 10%; 
+	}
+}
 
 /* casette */
 
@@ -240,7 +253,7 @@ footer.foot {
 	text-decoration: none;
 	margin-top: 0.4em;
 	padding: 0.2em;
-	color: #2E4359;
+	color: #E50914;
 }
 
 .paginas-icon-value {
@@ -257,7 +270,7 @@ footer.foot {
 /* about */
 
 .about-title {
-	color: #3C363E;
+	color: #E50914;
 }
 
 .about-img {
@@ -267,7 +280,11 @@ footer.foot {
 }
 
 .about-name {
-	color: #423031;
+	color: #8A7C7E;
+}
+
+.about-text {
+	color: #5e5555;
 }
 
 @media (min-width: 500px) {
@@ -280,7 +297,7 @@ footer.foot {
 /* skills */
 
 .skills-title {
-	color: #3C363E;
+	color: #E50914;
 }
 
 .skills-skill {
@@ -316,14 +333,14 @@ footer.foot {
 /* charges */
 
 .charges-title {
-	color: #2C403E;
+	color: #E50914;
 }
 
 .charge {
 	padding: 0 0 2em;
 	margin: 4em auto;
-	background-color: #73D1C3;
-	border: 1px solid #357B7F;
+	background-color: #8A7C7E;
+	border: 1px solid #532d2e;
 	border-top-right-radius: 1.5em;
 	border-top-left-radius: 1.5em;
 	width: 200px;
@@ -332,20 +349,20 @@ footer.foot {
 .charge-title {
 	border-top-right-radius: 1em;
 	border-top-left-radius: 1em;
-	border: 1px solid #357B7F;
+	border: 1px solid #532d2e;
 	margin: 0;
 	padding: 0.5em;
-	background-color: #64B5A9;
+	background-color: #4D3031;
 }
 
 .charge-paragraph {
 	margin: 0;
 	padding: 0.5em;
-	border-bottom: 1px solid #357B7F;
-	background-color: #6FC9BC;
+	border-bottom: 1px solid #532d2e;
+	background-color: #8A7C7E;
 	font-size: 1.3em;
 } .charge-paragraph:hover{
-	background-color: #74D4C5;
+	background-color: #6c6062;
 	cursor: pointer;
 }
 
@@ -354,10 +371,10 @@ footer.foot {
 	padding: 1em 0.5em;
 	margin:0;
 	font-size: 1.5em;
-	background-color: #6FC9BC;
-	border-bottom: 1px solid #357B7F;
+	background-color: #8A7C7E;
+	border-bottom: 1px solid #532d2e;
 } .charge-monto:hover{
-	background-color: #74D4C5;
+	background-color: #514849;
 	cursor: pointer;
 }
 
@@ -367,8 +384,8 @@ footer.foot {
 	padding: 0.8em;
 	border-radius: 0.5em;
 	font-size: 1.5em;
-	background-color: #C9E0E8;
-	color: #357B7F;
+	background-color: #410202;
+	color: #8A7C7E;
 	text-decoration: none; 
 }
 
@@ -380,7 +397,8 @@ footer.foot {
 
  	.charge{
  		float: left;
- 		margin: 2em;
+ 		margin: 1em;
+ 		margin-left: 2em;
  	}
 }    
 
