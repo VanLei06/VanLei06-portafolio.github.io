@@ -84,6 +84,7 @@ section.casette {
 	grid-row: rowb-start / rowb-end;
 	padding: 0;
 	background-color: #281b1b;
+	background-image: url("vendor/fondos/red-.jpg");
 }
 
 div.paginas {
@@ -95,6 +96,7 @@ div.paginas {
 section.about {
 	grid-row: rowd-start / rowd-end;
 	background-color: #321111;
+	background-image: url("vendor/fondos/fondo-pincel.jpg");
 	opacity: 0.9;
 	padding: 0;
 }
@@ -102,6 +104,7 @@ section.about {
 section.skills {
 	grid-row: rowe-start / rowe-end;
 	background-color: #350d0d;
+	background-image: url("vendor/fondos/fondo-piso.jpg");
 	padding: 0;
 }
 
@@ -109,12 +112,13 @@ section.charges {
 	grid-row: rowf-start / rowf-end;
 	background-color: #370c0c;
 	padding: 0;
-
+	background-image: url("vendor/fondos/red-background.jpg");
 }
 
 section.contact {
 	grid-row: rowg-start / rowg-end;
 	padding: 0;
+	background-image: url("vendor/fondos/fondo-piso2.jpg");
 }
 
 section.info {
@@ -145,7 +149,7 @@ footer.foot {
 	display: block;
 	float: left;
 	margin-left: 1em;
-	color: #F5F5F1;
+	color: #965255;
 }
 
 .header-box {
@@ -163,8 +167,39 @@ footer.foot {
 	height: 4em;
 }
 
+.header-links {
+    	text-decoration: none;
+    }
+
+.header-link-title {
+    	margin: 0;
+    	padding: 0.5em 0;
+    	color: #420000;
+    } .header-link-title:hover
+    {background-color: #825C5D;
+    background-image: url("vendor/fondos/fondo-humo.jpg");
+    }
+   
+
 .links-grap{
 	display: none;
+	position: absolute;
+	min-width: 100px;
+	min-height: 200px;
+	font-size: 2em;
+    background-color: #221F1F;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+} .dropdown:hover .links-grap {
+	display: block;
+}
+
+.dropdown {
+	display: block;
+	float: right;
+    position: relative;
+
 }
 
 @media (min-width: 500px) {
@@ -174,6 +209,7 @@ footer.foot {
 	position: fixed;
 	width: 25%;
 	height: 100%;
+	box-shadow: 10px 0 8px 0 rgba(0, 0, 0, 0.2);
     }
 
     .header-box{
@@ -186,29 +222,26 @@ footer.foot {
     	margin-left: 0.2em;
     }
 
+	.dropdown {
+		float: none;
+		position: static;
+	}
+
     .links-grap {
+    	position: relative;
     	display: block;
     	clear: left;
     	text-align: center;
-    	margin-top: 6.5em;
-    	font-size: 300%;
+    	margin-top: 1.5em;
+    	font-size: 200%;
+    	box-shadow: none;
+    	z-index: 0;
     }
-
-    .header-links {
-    	text-decoration: none;
-    }
-
-    .header-link-title {
-    	margin: 0.5em 0;
-    	padding: 0.5em 0;
-    	color: #420000;
-    } .header-link-title:hover
-    {background-color: #825C5D;}
 }    
 
 @media (min-width: 1000px) {
 	.links-grap {
-		margin-top: 4.5em;
+		margin-top: 2em;
 		font-size: 6em;
 	}
 
@@ -228,6 +261,7 @@ footer.foot {
 	margin: 2em auto;
 	max-width: 100%;
 	height: auto;
+	box-shadow: 8px 8px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media (min-width: 500px) {
@@ -253,7 +287,7 @@ footer.foot {
 	text-decoration: none;
 	margin-top: 0.4em;
 	padding: 0.2em;
-	color: #E50914;
+	color: #9c4d52;
 }
 
 .paginas-icon-value {
@@ -270,7 +304,7 @@ footer.foot {
 /* about */
 
 .about-title {
-	color: #E50914;
+	color: #d08185;
 }
 
 .about-img {
@@ -280,11 +314,12 @@ footer.foot {
 }
 
 .about-name {
-	color: #8A7C7E;
+	color: #716e6e;
 }
 
 .about-text {
-	color: #5e5555;
+	color: #f36a6a;
+	padding:3em 0 5em;
 }
 
 @media (min-width: 500px) {
@@ -297,12 +332,16 @@ footer.foot {
 /* skills */
 
 .skills-title {
-	color: #E50914;
+	color: #d08185;
+}
+
+.skill-grap {
+	padding:0 0 5em;
 }
 
 .skills-skill {
 	text-align: left;
-	color: #423031;
+	color: #ab5157;
 	margin-left: 1em;
 	font-size: 1.4em;
 }
@@ -333,7 +372,7 @@ footer.foot {
 /* charges */
 
 .charges-title {
-	color: #E50914;
+	color: #d08185;
 }
 
 .charge {
@@ -389,6 +428,10 @@ footer.foot {
 	text-decoration: none; 
 }
 
+section.charges:last-of-type {
+	margin-bottom: 5em;
+}
+
 @media (min-width: 500px) {
 	section.charges {
 	grid-row: row5-start / row5-end;
@@ -409,7 +452,7 @@ footer.foot {
 }
 
 .contact-title {
-	color: #000;
+	color: #d18185;
 }
 
 .contact-text {
@@ -509,4 +552,13 @@ footer.foot {
 
 .hover:hover {
 	opacity: 1;
+}
+
+/**************
+PARALLAX EFFECT
+****************/
+
+.parallax {
+	background: red fixed 50% 50%;
+	background-size: cover;
 }
