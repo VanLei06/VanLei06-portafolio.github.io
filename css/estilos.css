@@ -274,7 +274,7 @@ footer.foot {
 
 .casette-imgc {
 	display: block;
-	margin: 2em auto;
+	/*margin: 2em auto;*/
 	max-width: 100%;
 	height: auto;
 	box-shadow: 8px 8px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
@@ -288,10 +288,16 @@ footer.foot {
 	section.casette {
     grid-row: row1-start / row1-end;
 	grid-column: col-s2-start / col-s4-end;
+
+	display: grid;
+	grid-auto-rows: auto-fit, minmax(150px, 1fr);
+    /*grid-template-columns: repeat(2,  minmax(150px, 1fr));*/
+    grid-template-columns:  repeat(auto-fit, minmax(150px, 50%));
+    grid-auto-flow: row dense;
     }
 
     .casette-imgc {
-    margin: 2em 2em;
+    margin: 1em;
 	max-width: 90%;
     }
 }    
