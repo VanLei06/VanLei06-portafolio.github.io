@@ -1,0 +1,510 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"charges"
+			],
+			[
+				"paddin",
+				"padding-bottom\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"grid-aut",
+				"grid-auto-flow\tproperty"
+			],
+			[
+				"gr",
+				"grid-auto-columns\tproperty"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"backgrou",
+				"background-image\tproperty"
+			],
+			[
+				"f",
+				"float\tproperty"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"mari",
+				"margin\tproperty"
+			],
+			[
+				"bo",
+				"border\tproperty"
+			],
+			[
+				"ov",
+				"overflow\tproperty"
+			],
+			[
+				"grid-te",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"gri",
+				"grid-row\tproperty"
+			],
+			[
+				"a",
+				"auto\theight"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"v",
+				"vendor"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"bord",
+				"border-color\tproperty"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"cas",
+				"casette-img"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"grid-t",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"BA",
+				"background-color\tproperty"
+			],
+			[
+				"g",
+				"grid-column\tproperty"
+			],
+			[
+				"cont",
+				"contenido"
+			],
+			[
+				"grid",
+				"grid-area\tproperty"
+			],
+			[
+				"bor",
+				"border\tproperty"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"ma",
+				"max-width\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"border",
+				"border\tproperty"
+			],
+			[
+				"s",
+				"solid"
+			],
+			[
+				"pa",
+				"padding-bottom\tproperty"
+			],
+			[
+				"borde",
+				"border\tproperty"
+			],
+			[
+				"com",
+				"comisiones"
+			],
+			[
+				"ani",
+				"animaciones"
+			],
+			[
+				"i",
+				"id\tAttr"
+			],
+			[
+				"m",
+				"margin-left"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"t",
+				"table-cell\tdisplay"
+			],
+			[
+				"te",
+				"text-decoration-style\tproperty"
+			],
+			[
+				"ha",
+				"habilidad"
+			],
+			[
+				"table-c",
+				"table-cell\tdisplay"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"r",
+				"right\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"b",
+				"background-color\tproperty"
+			],
+			[
+				"Pass",
+				"password"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"n",
+				"Nombres"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"ay",
+				"ayu: Activate theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/LEINER/Desktop/carpetas/curso grids/leiner/index.html",
+		"/C/Users/LEINER/Desktop/carpetas/curso grids/leiner/css/estilos.css",
+		"/C/Users/LEINER/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/LEINER/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/LEINER/Desktop/carpetas/curso grids/aprende-css-grid-practico-master/11/css/main.css",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/01/css/main.css",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/01/index.html",
+		"/C/Users/LEINER/Desktop/carpetas/LEINER/Desarrollo web/proyectoV/index.html",
+		"/C/Users/LEINER/Desktop/carpetas/LEINER/Desarrollo web/proyecto1/index.html",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/10/css/main.css",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/06/css/main.css",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/03/css/main.css",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/02/css/main.css",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/02/index.html",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/10/index.html",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/09/index.html",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/09/css/main.css",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/08/css/main.css",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/08/index.html",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/07/index.html",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/07/css/main.css",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/06/index.html",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/05/index.html",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/05/css/main.css",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/04/index.html",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/04/css/main.css",
+		"/C/Users/LEINER/Desktop/curso grids/aprende-css-grid-practico-master/03/index.html",
+		"/C/Users/LEINER/Desktop/grids/index.html",
+		"/C/Users/LEINER/Desktop/grids/css/main.css",
+		"/C/Users/LEINER/Desktop/leiner/css/estilos.css",
+		"/C/Users/LEINER/Desktop/leiner/index.html",
+		"/C/Users/LEINER/Desktop/carpetas/LEINER/Desarrollo web/proyectoV/CSS/estilos.css",
+		"/C/Users/LEINER/Desktop/leiner/styles.css",
+		"/C/Users/LEINER/Desktop/progress.html",
+		"/C/Users/LEINER/Desktop/calendario/README.md",
+		"/C/Users/LEINER/Desktop/calendario/index.html",
+		"/C/Users/LEINER/Desktop/calendario/main.js",
+		"/C/Users/LEINER/Desktop/calendario/styles.css",
+		"/C/Users/LEINER/calendario/.gitignore",
+		"/C/Users/LEINER/Desktop/carpetas/LEINER/Desarrollo web/Pag 1/index.html",
+		"/C/Users/LEINER/Desktop/carpetas/LEINER/Desarrollo web/Pag 1/css/estilos.css",
+		"/C/Users/LEINER/Desktop/carpetas/LEINER/Desarrollo web/responsive/estilos.css",
+		"/C/Users/LEINER/Desktop/carpetas/LEINER/Desarrollo web/responsive/responsive.html",
+		"/C/Users/LEINER/Desktop/carpetas/LEINER/curso desarrollo web/proyectoV/CSS/estilos.css",
+		"/C/Users/LEINER/Desktop/carpetas/LEINER/curso desarrollo web/proyectoV/index.html",
+		"/C/Users/LEINER/Desktop/estilos.css",
+		"/C/Users/LEINER/Desktop/responsive.html",
+		"/C/Users/LEINER/Desktop/carpetas/LEINER/curso desarrollo web/proyecto1/CSS/estilos.css",
+		"/C/Users/LEINER/Desktop/carpetas/LEINER/curso desarrollo web/proyecto1/index.html",
+		"/C/Users/LEINER/Desktop/carpetas/LEINER/curso desarrollo web/proyectoV/CSS/vendor/normalize.css",
+		"/C/Users/LEINER/Desktop/carpetas/LEINER/curso desarrollo web/proyecto1/CSS/vendor/normalize.css",
+		"/C/Users/LEINER/Desktop/proyecto1/CSS/estilos.css",
+		"/C/Users/LEINER/Desktop/proyecto1/index.html",
+		"/C/Users/LEINER/Desktop/proyecto1/CSS/vendor/normalize.css",
+		"/C/Users/LEINER/Desktop/form.html",
+		"/C/Users/LEINER/Desktop/style.css",
+		"/C/Users/LEINER/Desktop/slambook.html",
+		"/C/Users/LEINER/Desktop/carpetas/style.css",
+		"/C/Users/LEINER/Desktop/carpetas/login.html",
+		"/C/Users/LEINER/Desktop/carpetas/style.txt",
+		"/C/Users/LEINER/Desktop/carpetas/login.txt"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
